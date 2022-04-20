@@ -1,4 +1,4 @@
-package com.leeyen.jenkins;
+package com.leeyen.jenkins.utils;
 
 import com.cdancy.jenkins.rest.JenkinsClient;
 
@@ -22,4 +22,5 @@ public class JenkinsConnect {
         }
         return jenkinsClient;
     }
+
 }
